@@ -1,0 +1,39 @@
+{
+  "name": "multivac",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@codesandbox/sandpack-react": "^2.1.11",
+    "@emotion/react": "^11.10.6",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/joy": "^5.0.0-alpha.72",
+    "@pinecone-database/pinecone": "^0.0.11",
+    "@vercel/analytics": "^0.1.11",
+    "dotenv": "^16.0.3",
+    "eventsource-parser": "^1.0.0",
+    "langchain": "https://gitpkg.now.sh/dustinlacewell/langchainjs-edge/langchain?5b60b73d52d3123d8637c80a4b7d7e8a9989462e",
+    "next": "^13.2.4",
+    "pinecone-client": "^1.1.0",
+    "prismjs": "^1.29.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zustand": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "@types/prismjs": "^1.26.0",
+    "@types/react": "^18.0.29",
+    "@types/react-dom": "^18.0.11",
+    "eslint": "^8.36.0",
+    "eslint-config-next": "^13.2.4",
+    "typescript": "^5.0.2"
+  }
+}
